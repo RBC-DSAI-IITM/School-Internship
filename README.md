@@ -15,18 +15,19 @@ The participants are also encouraged to investigate the lesser known variants wh
 ### Data Sources
 - [Active periods of variants](https://www.who.int/en/activities/tracking-SARS-CoV-2-variants/)
 - [COVID-19 cases data](https://www.worldometers.info/coronavirus/country/india/)
+- [Additional data sources](https://coronavirus.jhu.edu/region/india)
 
 
 ## Task 2
 ### Objective
-To predict Air Quality Parameters for a given place in India using time series modeling
+To predict Air Quality Parameters for a given place in India using machine learning
 
 ### Description
 The Air Quality Index is based on measurement of particulate matter (PM2.5 and PM10), Ozone (O3), Nitrogen Dioxide (NO2), Sulfur Dioxide (SO2) and Carbon Monoxide (CO) emissions. When AQI values are above 100, air quality is unhealthy: at first for certain sensitive groups of people, then for everyone as AQI values get higher.
 
-Using time series modeling, we can predict the future AQI values based on the historic AQI data. Center for Pollution Control Board (CPCB) has been publishing AQI data for over 350 stations all over India on a 4-hourly basis. Building prediction models over that and inferring the future AQI values will provide us insights on how air quality will improve or worsen.
+Using machine learning, we can predict the future Air Quality Parameter values based on the historic data. Center for Pollution Control Board (CPCB) has been publishing Air Quality Parameter data for over 350 stations all over India on a 4-hourly basis. Building prediction models over that and inferring the future AQI values will provide us insights on how air quality will improve or worsen.
 
-Participants are encouraged to use any established time series prediction model. The task will be to use 13 consecutive days of historic AQI data to predict AQI value for the 14th day.
+Participants are encouraged to use any machine learning prediction model. The task will be to use 13 consecutive days of historic data to predict Air Quality Parameter value for the 14th day.
 
 ### Data Sources
 - [Raw CSV file](./airquality_data.csv)
